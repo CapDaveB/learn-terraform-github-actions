@@ -17,6 +17,7 @@ terraform {
 
 variable "resource_group_name" {
   type = string
+  default = "GitHub-Actions-Test-Name"
 }
 
 variable "location" {
